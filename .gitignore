@@ -7,3 +7,11 @@
 
 # .tfvars files
 *.tfvars
+
+# private keys
+*/keys/*.pem
+global/certs/*.pem
+*/*/keys/*.pem
+
+# ansible auto-generated assets
+*/ansible/*.generated
